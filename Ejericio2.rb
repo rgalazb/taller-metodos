@@ -2,10 +2,10 @@ def random
   result = [true, false].sample
   return result
 end
-
-if random
+variable = random
+if variable
   puts 'sí'
-elsif !random
+elsif !variable
   puts 'no'
 else
   puts 'error'
