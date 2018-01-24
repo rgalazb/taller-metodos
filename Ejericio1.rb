@@ -1,8 +1,8 @@
-def par(x)
-  return x.even? ? true : false
+def par?(x)
+  x.even?
 end
 
-puts par(2)
-puts par(3)
-puts par(4)
-puts par(5)
+puts par?(2)
+puts par?(3)
+puts par?(4)
+puts par?(5)
